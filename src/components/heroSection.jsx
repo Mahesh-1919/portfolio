@@ -17,7 +17,7 @@ function heroSection(){
                     </div>
                 </div>
                 <div className="right">
-                    <img src="\src\assets\21MH5A0437.jpg" alt="profile"/>
+                    <img src="\assets\21MH5A0437.jpg" alt="profile"/>
                 </div>
                
             </section>
