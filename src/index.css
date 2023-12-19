@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply font-bold text-center mb-4;
+  }
+}
+
+@layer components {
+  .icon {
+    @apply hover:text-purple-500;
+  }
+}
