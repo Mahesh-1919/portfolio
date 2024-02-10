@@ -8,7 +8,7 @@ export default function Projects() {
           title="Deployment Of Movie List Web Application"
           stack={["HTML", "CSS", "JavaScript", "MongoDB", "AWS", "Docker"]}
           git="https://github.com/Mahesh-1919/devops_project.git"
-          url="./public/movielisting.png"
+          url="./movielisting.png"
         />
         <ProjectCard
           title="Application and Database Orchestration using Kubernetes"
