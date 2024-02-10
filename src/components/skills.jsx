@@ -15,15 +15,15 @@ function skills() {
 
   return (
     <>
-      <section className="skills p-4" id="skills">
-        <h1>SKILLS</h1>
-        <ul className="skill-container flex gap-2 flex-wrap justify-center">
+      <section className="skills p-4 md:w-2/3 mx-auto" id="skills">
+        <h1 className="sec-head">SKILLS</h1>
+        <ul className="skill-container flex gap-2 flex-wrap justify-center md:gap-6">
           {skillArray.map((data) => (
             <li
               key={data.id}
-              className="border border-purple-500 rounded-lg flex p-2 text-sm gap-2 hover:bg-purple-500 hover:text-white hover:border-black"
+              className="border border-purple-500 rounded-lg flex items-center p-2 text-sm gap-2 hover:bg-purple-500 hover:text-white hover:border-black md:text-xl"
             >
-              <img src={data.url} alt="image" className=" h-5   "></img>
+              <img src={data.url} alt="image" className=" h-5 "></img>
               <span>{data.name}</span>
             </li>
           ))}
