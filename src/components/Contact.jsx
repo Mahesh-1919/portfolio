@@ -34,7 +34,7 @@ export default function Conatct() {
   };
   return (
     <section id="contact" className="p-4 bg-black text-white mb-10">
-      <h1 className="sec-head">Contact</h1>
+      <h1 className="sec-head">CONTACT</h1>
       <form className="text-right md:w-1/2 mx-auto" onSubmit={sendEmail}>
         <div className="flex flex-col  gap-2  mb-4">
           <input
@@ -77,7 +77,7 @@ export default function Conatct() {
               </a>
             </span>
             <span className="icon">
-              <a href="maheshjyothula23@gmail.com">
+              <a href="mailto:maheshjyothula23@gmail.com?subject=Mail from our Website">
                 <FaEnvelope />
               </a>
             </span>

@@ -21,7 +21,7 @@ function skills() {
           {skillArray.map((data) => (
             <li
               key={data.id}
-              className="border border-purple-500 rounded-lg flex items-center p-2 text-sm gap-2 hover:bg-purple-500 hover:text-white hover:border-black md:text-xl"
+              className="border bg-gray-800 border-gray-700 rounded-lg flex items-center p-2 text-sm gap-2 hover:bg-purple-500 hover:text-white hover:border-black md:text-xl"
             >
               <img src={data.url} alt="image" className=" h-5 "></img>
               <span>{data.name}</span>

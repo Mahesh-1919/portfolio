@@ -12,12 +12,16 @@ const LinkComp = () => {
         </a>
       </span>
       <span className="icon">
-        <a href="">
+        <a
+          href="https://www.instagram.com/mahesh__sm/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaInstagram />
         </a>
       </span>
       <span className="icon">
-        <a href="maheshjyothula23@gmail.com">
+        <a href="mailto:maheshjyothula23@gmail.com?subject=Mail from our Website">
           <FaEnvelope />
         </a>
       </span>

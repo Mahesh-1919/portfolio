@@ -8,7 +8,9 @@ function heroSection() {
         id="home"
       >
         <div className=" text-center md:w-2/3">
-          <h1 className="text-2xl font-bold md:text-7xl">Mahesh Jyothula</h1>
+          <h1 className="text-2xl font-bold md:text-7xl text-white">
+            Mahesh Jyothula
+          </h1>
           <h4 className="font-bold text-lg md:text-3xl">
             I am <span className="dev  text-purple-500">Devloper .</span>
           </h4>
