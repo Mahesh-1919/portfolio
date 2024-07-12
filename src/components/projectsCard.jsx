@@ -4,7 +4,11 @@ export default function ProjectCard(props) {
   let stack = props.stack;
   return (
     <div className="max-w-sm  border rounded-lg shadow-lg shadow-black/40 bg-gray-800 border-gray-700 m-5 project-card">
-      <img className="rounded-t-lg md:h-60" src={props.url} alt="image" />
+      <img
+        className="rounded-t-lg md:h-60 object-fit w-full"
+        src={props.url}
+        alt="image"
+      />
 
       <div className="p-5 ">
         <h5 className="mb-2 text-xl md:text-2xl  font-bold tracking-tight text-gray-900 dark:text-white">

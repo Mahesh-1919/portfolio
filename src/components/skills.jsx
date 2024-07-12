@@ -11,6 +11,17 @@ function skills() {
     { id: 9, url: "/image9.png", name: "MongoDB" },
     { id: 10, url: "/image10.png", name: "Docker" },
     { id: 11, url: "/image11.png", name: "Photoshop" },
+
+    {
+      id: 12,
+      url: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/nextjs-icon.png",
+      name: "Nextjs",
+    },
+    {
+      id: 13,
+      url: "https://asset.brandfetch.io/idBBE3_R9e/id_eUUhZjE.png?updated=1715773166874",
+      name: "Prisma",
+    },
   ];
 
   return (

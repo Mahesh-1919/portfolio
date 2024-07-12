@@ -10,6 +10,24 @@ export default function Projects() {
           git="https://github.com/Mahesh-1919/devops_project.git"
           url="./movielisting.png"
         />
+
+        <ProjectCard
+          title="Task Manager Web Application"
+          stack={[
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "MongoDB",
+            "React",
+            "Nextjs",
+            "Prisma",
+            "Tailwind",
+            "Shadcn Ui",
+            "Next Auth",
+          ]}
+          git="https://github.com/Mahesh-1919/taskmanager_webapp.git"
+          url="https://static.collectui.com/shots/2491838/tasks-large"
+        />
         <ProjectCard
           title="Application and Database Orchestration using Kubernetes"
           stack={[
@@ -24,12 +42,6 @@ export default function Projects() {
           ]}
           git="https://github.com/Mahesh-1919/devops_project.git"
           url="https://spaceliftio.wpcomstaging.com/wp-content/uploads/2022/05/73.kubernetes-best-practices.png"
-        />
-        <ProjectCard
-          title="Spotify Clone Webpage"
-          stack={["HTML", "CSS", "JavaScript", "MongoDB", "React"]}
-          git="https://github.com/Mahesh-1919/Spotify-clone.git"
-          url="https://assets-global.website-files.com/64830736e7f43d491d70ef30/64bfca46b1569eeda774403d_64a57f4512ee9430c0ea7cf8_64a2cf43ee15ed8228d585a0_Business_Model_Examples-Spotify.webp"
         />
         <ProjectCard
           title="Movie Review Web-Application"

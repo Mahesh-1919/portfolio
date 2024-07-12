@@ -18,9 +18,9 @@ export default function Education() {
             </span>
             <h3 className="flex items-center mb-1 text-md md:text-2xl font-semibold text-white">
               Aditya College Of Engineering
-              <span className=" bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">
+              {/* <span className=" bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">
                 Current
-              </span>
+              </span> */}
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               2021-2024
@@ -68,12 +68,8 @@ export default function Education() {
               Sri Adrasha High School
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              Released on December 2nd, 2021
+              2017-2018
             </time>
-            <p className=" font-normal text-gray-500 dark:text-gray-400  ">
-              Get started with dozens of web components and interactive elements
-              built on top of Tailwind CSS.
-            </p>
           </li>
         </ol>
       </div>

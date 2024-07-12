@@ -67,22 +67,28 @@ export default function Conatct() {
         <div className="flex justify-between  items-center text-white/50">
           <div className="span-icon flex gap-4 ml-4 md:text-2xl">
             <span className="icon ">
-              <a href="https://www.linkedin.com/in/mahesh-jyothula-751138236/">
+              <a
+                href="https://www.linkedin.com/in/mahesh-jyothula-751138236/"
+                target="_blank"
+              >
                 <IoLogoLinkedin />
               </a>
             </span>
             <span className="icon">
-              <a href="">
+              <a href="https://www.instagram.com/mahesh__sm/ " target="_blank">
                 <FaInstagram />
               </a>
             </span>
             <span className="icon">
-              <a href="mailto:maheshjyothula23@gmail.com?subject=Mail from our Website">
+              <a
+                href="mailto:maheshjyothula23@gmail.com?subject=Mail from our Website"
+                target="_blank"
+              >
                 <FaEnvelope />
               </a>
             </span>
             <span className="icon">
-              <a href="https://github.com/Mahesh-1919">
+              <a href="https://github.com/Mahesh-1919" target="_blank">
                 <FaGithub />
               </a>
             </span>

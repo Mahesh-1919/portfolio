@@ -1,4 +1,6 @@
 import LinkComp from "./linkComp";
+import TypeAnimations from "./textAnimation";
+import { TypeAnimation } from "react-type-animation";
 
 function heroSection() {
   return (
@@ -12,7 +14,17 @@ function heroSection() {
             Mahesh Jyothula
           </h1>
           <h4 className="font-bold text-lg md:text-3xl">
-            I am <span className="dev  text-purple-500">Devloper .</span>
+            I am{" "}
+            <TypeAnimation
+              className="dev  text-purple-500"
+              sequence={[
+                // Same substring at the start will only be typed once, initially
+                "Full Stack Devloper ",
+                1000,
+              ]}
+              speed={50}
+              repeat={Infinity}
+            />
           </h4>
           <p className="px-4  md:mx-auto md:text-xl md:my-6">
             Aiming to start my career with an organization where my skill set

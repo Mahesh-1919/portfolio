@@ -7,7 +7,10 @@ const LinkComp = () => {
   return (
     <div className="span-icon flex gap-4 text-xl md:text-2xl ">
       <span className="icon ">
-        <a href="https://www.linkedin.com/in/mahesh-jyothula-751138236/">
+        <a
+          href="https://www.linkedin.com/in/mahesh-jyothula-751138236/"
+          target="_blank"
+        >
           <IoLogoLinkedin />
         </a>
       </span>
@@ -21,12 +24,15 @@ const LinkComp = () => {
         </a>
       </span>
       <span className="icon">
-        <a href="mailto:maheshjyothula23@gmail.com?subject=Mail from our Website">
+        <a
+          href="mailto:maheshjyothula23@gmail.com?subject=Mail from our Website"
+          target="_blank"
+        >
           <FaEnvelope />
         </a>
       </span>
       <span className="icon">
-        <a href="https://github.com/Mahesh-1919">
+        <a href="https://github.com/Mahesh-1919" target="_blank">
           <FaGithub />
         </a>
       </span>
