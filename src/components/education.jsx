@@ -23,7 +23,7 @@ export default function Education() {
               </span> */}
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              2021-2024.
+              2021-2024
             </time>
             <p className="mb-4   font-normal text-gray-500 dark:text-gray-400">
               Bachelor of Technology in Electronics and Communication
@@ -46,7 +46,7 @@ export default function Education() {
               Aditya Polytechnic College
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              2018-2021.
+              2018-2021
             </time>
             <p className=" font-normal text-gray-500 dark:text-gray-400">
               Diploma in Electronics and Communication Engineering
@@ -68,7 +68,7 @@ export default function Education() {
               Sri Adrasha High School
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              2017-2018.
+              2017-2018
             </time>
           </li>
         </ol>
