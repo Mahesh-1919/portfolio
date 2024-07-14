@@ -53,7 +53,7 @@ export default function Projects() {
             "Expressjs",
             "Tailwind",
           ]}
-          git="https://github.com/Mahesh-1919/devops_project.git"
+          git="https://github.com/Mahesh-1919/movie_review_webapp.git"
           url="/WEBSITE-COVER.jpg"
         />
       </div>

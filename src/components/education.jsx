@@ -68,7 +68,6 @@ export default function Education() {
               Sri Adrasha High School
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              2017-2018
             </time>
           </li>
         </ol>
