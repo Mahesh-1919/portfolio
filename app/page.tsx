@@ -1,10 +1,9 @@
-import Image from "next/image";
 import Hero from "@/app/components/Hero";
 import Skills from "@/app/components/skills";
 import Projects from "./components/projects";
 import Hireme from "./components/Hireme";
 import Footer from "./components/footer";
-import About from "./components/about";
+
 import TextQuote from "./components/textQuote";
 import LayoutGridDemo from "./components/LayoutGrid";
 
