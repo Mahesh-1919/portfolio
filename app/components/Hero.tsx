@@ -5,6 +5,8 @@ import { Spotlight } from "./ui/Spotlight";
 import NavBar from "./NavBar";
 import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
+import { TextGenerateEffect } from "./ui/text-generate-effect";
+
 export default function GridBackgroundDemo() {
   return (
     <>
@@ -29,9 +31,10 @@ export default function GridBackgroundDemo() {
               </button>
             </div>
             <div className=" w-full flex flex-col justify-center items-center   md:py-8  md:px-16 p-2 ">
-              <h1 className="text-white md:text-8xl text-3xl font-bold text-wrap text-center">
-                Transforming Ideas Into Seamless User Experiences
-              </h1>
+              <TextGenerateEffect
+                words={"   Transforming Ideas Into Seamless User Experiences"}
+                className="text-white md:text-8xl text-3xl font-bold text-wrap text-center"
+              />
 
               <div className=" mt-6 flex flex-col items-center gap-4 md:gap-4   ">
                 <h1 className="text-white font-mono text-xs md:text-sm ">

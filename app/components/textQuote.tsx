@@ -7,7 +7,7 @@ export default function TextGenerateEffectDemo() {
   return (
     <TextGenerateEffect
       words={words}
-      className="p-8  md:max-w-xl mx-auto text-center"
+      className="p-8  md:max-w-lg mx-auto text-center md:text-2xl  text-blue-500"
     />
   );
 }
