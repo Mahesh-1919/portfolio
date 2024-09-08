@@ -21,7 +21,7 @@ import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 export default function InfiniteMovingCardsDemo() {
   return (
     <div
-      className="bg-black flex flex-col antialiased  items-center justify-center relative overflow-hidden w-full "
+      className="bg-black flex flex-col antialiased  items-center justify-center relative overflow-hidden w-full mt-2 "
       id="layoutGrid"
     >
       <InfiniteMovingCards

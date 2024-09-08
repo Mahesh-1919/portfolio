@@ -10,7 +10,7 @@ import { TextGenerateEffect } from "./ui/text-generate-effect";
 export default function GridBackgroundDemo() {
   return (
     <>
-      <Spotlight fill="blue" className="w-[100vw]  " />
+      <Spotlight fill="blue" className="w-[100vw] mt-10  " />
       <div
         className="  w-full bg-black  bg-grid-blue-500/[0.3]  relative flex   "
         id="hero"
@@ -19,7 +19,7 @@ export default function GridBackgroundDemo() {
           <div className="absolute pointer-events-none inset-0  lex items-center justify-center bg-gradient-to-b from-black/0 to-black/90"></div>
           <div className="w-full flex flex-col  absolute p-4">
             <NavBar />
-            <div className="w-full flex justify-center md:mt-10">
+            <div className="w-full flex justify-center mt-10">
               <button className="bg-slate-800 no-underline group cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6  text-white inline-block">
                 <span className="absolute inset-0 overflow-hidden rounded-full">
                   <span className="absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100"></span>
