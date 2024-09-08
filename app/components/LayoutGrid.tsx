@@ -19,11 +19,11 @@ const SkeletonOne = () => {
       </p>
       <p className="  text-zinc-400 font-thin text-center font-mono text-xs md:text-sm ">
         {" "}
-        I’m Sai Siva Mahesh Jyothula, a passionate full-stack developer with
+        I'm Sai Siva Mahesh Jyothula, a passionate full-stack developer with
         expertise in React.js, Next.js, Tailwind CSS, and TypeScript. I enjoy
         building scalable web applications and have experience in both front-end
         and back-end development, With a strong foundation in FullStack
-        Developement, I’m always looking for new challenges to expand my skill
+        Developement, I'm always looking for new challenges to expand my skill
         set.
       </p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200"></p>
@@ -68,17 +68,25 @@ const SkeletonTwo = () => {
 };
 const SkeletonThree = () => {
   return (
-    <div className="relative">
+    <div className=" flex flex-col items-center">
       <p className="font-bold md:text-2xl text-xl text-white font-mono text-center">
-        Priority
+        Resume
       </p>
-      <p className="font-normal text-base text-white"></p>
+      <p className="font-normal text-base text-white"> </p>
 
       <p className="font-normal text-base my-4 max-w-lg text-zinc-400 text-center">
-        I priortize client collaboration, fostering open communication. I am a
-        strong advocate for the user, and I believe in the power of simple,
-        clean design.
+        You can Check my Resume here
       </p>
+      <div className="relative inline-flex  group mb-2 md:mb-0">
+        <div className="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt"></div>
+        <Link
+          href="https://drive.google.com/file/d/1yekKdL7HcTOL4MKmG89CGi-FUqJwlo8t/view"
+          className="relative inline-flex items-center justify-center px-4 py-2  text-lg font-bold text-white transition-all duration-200 bg-gray-900 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+          role="button"
+        >
+          Resume
+        </Link>
+      </div>
     </div>
   );
 };

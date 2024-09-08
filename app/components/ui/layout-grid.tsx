@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useRef, useEffect } from "react";
+import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
@@ -11,19 +11,6 @@ type Card = {
 };
 
 export const LayoutGrid = ({ cards }: { cards: Card[] }) => {
-  const [selected, setSelected] = useState<Card | null>(null);
-  const [lastSelected, setLastSelected] = useState<Card | null>(null);
-
-  const handleClick = (card: Card) => {
-    setLastSelected(selected);
-    setSelected(card);
-  };
-
-  const handleOutsideClick = () => {
-    setLastSelected(selected);
-    setSelected(null);
-  };
-
   return (
     <div className="w-full h-full p-10 grid grid-cols-1 md:grid-cols-3  max-w-7xl mx-auto gap-4 relative">
       {cards.map((card, i) => (
